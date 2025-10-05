@@ -1,0 +1,59 @@
+@font-face {
+    font-family: hakka;
+    src: url(The\ Foregen\ Rough\ One.otf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    /* padding: 0 10px; */
+    font-family: hakka;
+}
+
+.navi1{
+    display: flex;
+    align-items: center;
+    /* padding-right: 500px; */
+    gap: 15px;
+
+}
+
+.navi1 h2{
+    color: red;
+    font-size: 30px;
+    /* padding: 0px 20px; */
+}
+
+.red{
+    color: red;
+}
+
+#location{
+    transform: rotateY(10deg);
+}
+
+.navi2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
